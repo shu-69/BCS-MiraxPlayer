@@ -487,23 +487,23 @@ export function miraxPlayer(videoClip) {
 
     // Add keydown event listener to the document
 
-    // document.addEventListener('keydown', function(event) {
+    document.addEventListener('keydown', function(event) {
 
-    //   // Check if the pressed key is the space bar
+      // Check if the pressed key is the space bar
 
-    //   if (event.code === 'Space') {
+      if (event.code === 'Space') {
 
-    //     // Prevent the default action of scrolling
+        // Prevent the default action of scrolling
 
-    //     event.preventDefault();
+        event.preventDefault();
 
-    //     // Call the same function that you use for the play button
+        // Call the same function that you use for the play button
 
-    //     playerButton();
+        // playerButton();
 
-    //   }
+      }
 
-    // });
+    });
 
     
 
